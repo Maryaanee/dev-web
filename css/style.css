@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: #f3f1ff; 
+}
+
+.cabecalho {
+   background-color: #9e8eff; 
+    color: white;              
+    padding: 15px;             
+    text-align: left;
+    margin-left: -25; 
+}
+
+.menu{
+    float: right;
+}
+
+.menu-lista{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    line-height: 35px; 
+}
+
+.itemselected{
+    display:inline;
+    margin-left: 25px; 
+    color: #fcff82;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.item{
+    display: inline;
+    margin-left: 25px; 
+    text-decoration: none;
+    color: #85deff;
+}
+
+
+.simbolo-autismo {
+    float: left;
+    margin-top: -15px;
+    margin-left:-20px;
+    line-height: 1.2;
+    
+}
+.texto-cabecalho {
+  color: white;          
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: -10px;     
+  display: inline-block;
+}
+
+.profile-image{
+    float: right;
+    margin-left: 50px; 
+    position: relative;
+    top: -18px
+}
+
+
+.titulo{
+    color: #684fff;
+    font-family: serif;
+    font-size: 26px;
+    margin-left: 30px;
+    
+}
+
+.subtitulo{
+    color: #9e8eff;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 160px;
+    ;
+    
+}
+
+.paragrafointro {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.retangulo {
+    background-color: white;
+    width: 100%;
+    height: 30%;          
+    position: absolute;    
+    bottom: 0;             
+    left: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.imagem-apoio {
+    position: absolute;     
+    bottom: 70px;          
+    left: 30px;             
+    width: 130px;          
+    height: 30;           
+    
+}
+
+
+.botao {
+  text-decoration: none; 
+  color: #684fff;
+  background-color: #b9ffdb;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  margin:30px auto;
+  position: relative;
+}
+
+
+.footer {
+    background-color:#9e8eff; 
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-paragrafo {
+    margin: 0;
+}
+
+
+.background-roxo{
+    background-color: #9e8eff;
+}
+
+.sobre-image{
+    float: left;
+}
+
+.texto-info {
+  position: absolute;
+  right: 100px;            /* afasta da borda direita */
+  top: 60px;               /* começa da metade da seção */
+  width: 40%;             /* ocupa 40% da largura da seção */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.texto-info-h3 {
+  color: #fcff82;         
+  font-family: serif;    
+  margin-bottom: -20px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.texto-info-p {
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.image-formacao {
+  position: absolute;
+  float: right;
+  right: 0;    
+  margin-right: -40px;            
+  top:78px ;                  
+  height: 85%;           
+  width: 60%;   
+}     
+
+.texto-formacao {
+  position: absolute;
+  margin-left: 60px;        
+  width: 40%;           
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+.texto-formacao-h3{
+  color: #684fff;         
+  font-family: serif;    
+  margin-bottom: -5px;
+  font-weight: bolder;
+  font-size: 30px;
+  
+}
+
+.texto-lista {
+    color: rgb(44, 1, 46);
+  font-family: Arial;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.img-quadro {
+  position: absolute;
+  bottom: 150px;   /* distância da borda inferior */
+  right: 100px;    /* distância da borda direita */
+  width: 500px;   /* tamanho da imagem */
+  height: auto;   /* mantém proporção */
+ 
+}
+
+.quadro-disciplinas {
+  background-color: #684fff;  
+  color: white;
+  width: 70%;                  
+  margin: 50px; 
+  margin-top: 20px; 
+  margin-left: 140px;        
+  padding: 30px;              
+  border-radius: 20px;        
+  text-align: left;
+  position: relative;
+  line-height: 1.4;
+}
+
+.quadro-disciplinas-h3 {
+    color: #fcff82;
+    font-family: serif;
+    margin-bottom: -5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.background-roxo-escuro {
+  background-color: #684fff; /* roxo escuro */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.h3-formulario {
+  text-align: left;
+  margin-left: 20px;
+  color: #fcff82; 
+  font-family: serif;
+}
+
+
+.formulario {
+  background-color: #ffe596;
+  width: 30%;
+  margin: 40px auto; 
+  margin-top: -50px;
+  padding: 10px;
+  border-radius: 15px; 
+  color: #3b0066;
+ 
+
+.campo-formulario {
+  width: 95%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.botao {
+  background-color: #ff4444;   /* vermelho */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 15px;
+  text-align: center;
+
+}
+
